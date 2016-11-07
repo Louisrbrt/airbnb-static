@@ -1,10 +1,10 @@
 .cards-wrapper {
-  background-color: #F4F4F4;
+  background-color: $gray-lighter;
 }
 
 .card {
   height: 175px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 1px 3px $gray-dark;
   background-size: cover !important;
   color: white;
   position: relative;

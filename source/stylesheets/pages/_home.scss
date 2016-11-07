@@ -5,7 +5,9 @@ html, body {
 }
 */
 
-.container {
+.features-container,
+.card-container,
+.form-container {
   max-width: 960px;
   padding: 80px 0;
   margin: 0 auto;

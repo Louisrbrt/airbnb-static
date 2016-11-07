@@ -4,12 +4,20 @@
 
 <div id="footer">
     <div class="footer">
-      <div class="footer-container text-center">
+      <div class="container footer-container text-center">
         <div class="social-icons">
-          <a href="#" class="link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-          <a href="#" class="link"><i class="fa fa-fighter-jet" aria-hidden="true"></i></a>
-          <a href="#" class="link"><i class="fa fa-cubes" aria-hidden="true"></i></a>
-          <a href="#" class="link"><i class="fa fa-flask" aria-hidden="true"></i></a>
+          <% link_to "/", class:"link" do %>
+            <i class="fa fa-user" aria-hidden="true"></i>
+          <% end %>
+          <% link_to "/", class:"link" do %>
+            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
+          <% end %>
+          <% link_to "/", class:"link" do %>
+            <i class="fa fa-cubes" aria-hidden="true"></i>
+          <% end %>
+          <% link_to "/", class:"link" do %>
+            <i class="fa fa-flask" aria-hidden="true"></i>
+          <% end %>
         </div>
         <p>This is a Airbnb Home challenge @ LeWagon</p>
       </div>

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container team-container text-center">
   <ul class="list-inline text-center">
     <% ["louis", "romain"].each do |member| %>
       <li>
@@ -6,5 +6,6 @@
         <h3><%= member.capitalize %></h3>
       </li>
     <% end %>
-</ul>
+  </ul>
+  <%= link_to "Contact us", "/", class:"btn btn-primary contact-us-btn" %>
 </div>
